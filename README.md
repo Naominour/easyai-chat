@@ -2,7 +2,7 @@
 
 ## A WordPress AI Chat Plugin with Multi-Model Support
 
-🚀 **EasyAI-Chat** enables AI-powered conversations on your WordPress website using **ChatGPT (OpenAI), Claude (Anthropic), and Gemini (Google)**. Easily integrate intelligent chat functionality to engage visitors, provide support, or answer user queries in real time.
+🚀 **EasyAI-Chat** enables AI-powered conversations on your WordPress website using **ChatGPT (OpenAI), Claude (Anthropic), and Gemini (Google)**. Easily integrate intelligent chat functionality to engage visitors, provide support, or answer user queries in real-time.
 
 ---
 
@@ -11,9 +11,9 @@
 - **Multiple AI Providers** – Seamlessly switch between OpenAI’s **ChatGPT**, Anthropic’s **Claude**, and Google’s **Gemini**
 - **Custom System Prompts** – Control AI responses for a tailored experience
 - **Flexible Display Options** – Use an **inline chat** or a **floating popup button**
-- **User Interaction Limits** – Set a max number of free queries before prompting users to download your app
+- **User Interaction Limits** – Set a maximum number of free queries before prompting users to download your app
 - **Easy Shortcode Integration** – Add AI chat anywhere with `[easyai_chat]`
-- **Customizable UI** – Adjust chat colors, button positioning, and styling to match your brand
+- **Customizable UI** – Adjust chat colours, button positioning, and styling to match your brand
 - **Boosts Engagement** – Encourages users to interact and explore your app for extended features  
 
 > **Perfect for customer support, expert Q&A, and interactive AI-powered engagement!**
@@ -54,10 +54,10 @@ Currently, **EasyAI-Chat** supports:
 - **Google AI (Gemini)**  
 
 ### 2️⃣ Do I need to provide API keys?
-Yes, you must enter your own API keys from the supported providers.
+Yes, you must enter your API keys from the supported providers.
 
 ### 3️⃣ How can I customize the chat appearance?
-You can modify the **chat button color, position, and other styles** in the **EasyAI-Chat settings**.
+You can modify the **chat button colour, position, and other styles** in the **EasyAI-Chat settings**.
 
 ### 4️⃣ Can I limit how many questions users can ask?
 Yes, you can set a **maximum number of free queries**, after which users will see a **custom app promotion**.
@@ -72,13 +72,16 @@ You can choose between:
 ## 🖼 Screenshots
 
 1. **Frontend Chat Interface**  
-![EasyAI-Chat Screenshot](images/04.png)
+<img src="images/04.png" alt="EasyAI-Chat Screenshot" width="700">
 2. **Admin Panel – API Configuration**
 ![EasyAI-Chat Admin](images/011.png)
-3. **Admin Panel – Customization Options**  
+<img src="images/011.png" alt="EasyAI-Chat Screenshot" width="700">
+4. **Admin Panel – Customization Options**  
 ![EasyAI-Chat Admin](images/02.png)
-4. **Floating Chat Button in Action**  
+<img src="images/02.png" alt="EasyAI-Chat Screenshot" width="700">
+6. **Floating Chat Button in Action**  
 ![EasyAI-Chat Admin](images/03.png)
+<img src="images/03.png" alt="EasyAI-Chat Screenshot" width="700">
 
 ---
 
