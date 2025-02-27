@@ -1,4 +1,4 @@
-🎯💬 # EasyAI-Chat
+# 🎯💬 EasyAI-Chat
 
 ## A WordPress AI Chat Plugin with Multi-Model Support
 
@@ -41,9 +41,11 @@
 [easyai_chat]
 ```
 Or add it to your theme files using PHP:
-```html
+
+```md
+```php
 <?php echo do_shortcode('[easyai_chat]'); ?>
-```
+
 
 ## ❓ Frequently Asked Questions
 
