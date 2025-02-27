@@ -1,0 +1,274 @@
+:root {
+    --ec-theme-color: #6750A4;
+    --ec-text-color: #333333;
+    --ec-bg-color: #FFFFFF;
+    --ec-border-radius: 20px;
+    --ec-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ec-chat-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: var(--ec-bg-color);
+    border-radius: var(--ec-border-radius);
+    box-shadow: var(--ec-box-shadow);
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --theme-color: #6750A4;
+}
+
+.ec-chat-header {
+    background: #F3F0F7;
+    padding: 1.5rem;
+    color: var(--ec-text-color);
+}
+
+.ec-chat-header h2 {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.ec-chat-header p {
+    margin: 0.5rem 0 0;
+    opacity: 0.7;
+}
+
+#ec-response-area {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.ec-user-message,
+.ec-ai-message {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 16px;
+    max-width: 80%;
+}
+
+.ec-user-message {
+    background: #F0F0F0;
+    margin-left: auto;
+    border-bottom-right-radius: 4px;
+}
+
+.ec-ai-message {
+    background: #F3F0F7;
+    margin-right: auto;
+    border-bottom-left-radius: 4px;
+}
+
+.ec-user-message p,
+.ec-ai-message p {
+    margin: 0;
+}
+
+.ec-chat-form {
+    padding: 1rem;
+    border-top: 1px solid #EEEEEE;
+}
+
+.ec-input-group {
+    display: flex;
+    align-items: center;
+    background: #F9F9F9;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.ec-input-group input {
+    flex: 1;
+    border: none;
+    padding: 0.75rem 1rem;
+    background: transparent;
+    font-size: 1rem;
+}
+
+.ec-input-group input:focus {
+    outline: none;
+}
+
+.ec-send-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    background: var(--theme-color);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.ec-send-button:hover {
+    opacity: 0.9;
+}
+
+.ec-send-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.ec-examples {
+    padding: 1rem;
+}
+
+.ec-examples h3 {
+    margin: 0 0 0.75rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+.ec-example-cards {
+    display: flex;
+    gap: 0.75rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+}
+
+.ec-example-card {
+    background: #F9F9F9;
+    border: 1px solid #EEEEEE;
+    border-radius: 16px;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.ec-example-card:hover {
+    background: #F3F0F7;
+}
+
+.ec-promotion {
+    background: var(--theme-color);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.ec-promotion h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+}
+
+.ec-button {
+    display: inline-block;
+    background: white;
+    color: var(--theme-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.ec-promotion-card {
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, var(--theme-color), #4F378B);
+    color: white;
+    border-radius: var(--ec-border-radius);
+}
+
+.ec-promotion-card h2 {
+    margin-top: 0;
+}
+
+.ec-error {
+    background: #FEECEC;
+    color: #CC0000;
+    padding: 1rem;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+}
+
+/* Popup styling */
+.ec-chat-popup {
+    position: fixed;
+    bottom: 20px;
+    z-index: 9999;
+}
+
+.ec-chat-popup.bottom-right {
+    right: 20px;
+}
+
+.ec-chat-popup.bottom-left {
+    left: 20px;
+}
+
+.ec-chat-trigger {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--theme-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+.ec-chat-popup-content {
+    position: absolute;
+    bottom: 70px;
+    width: 350px;
+    background: white;
+    border-radius: var(--ec-border-radius);
+    box-shadow: var(--ec-box-shadow);
+    display: none;
+}
+
+.ec-chat-popup.bottom-right .ec-chat-popup-content {
+    right: 0;
+}
+
+.ec-chat-popup.bottom-left .ec-chat-popup-content {
+    left: 0;
+}
+
+.ec-close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.ec-spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: ec-spin 1s linear infinite;
+}
+
+.ec-input-group textarea {
+    flex: 1;
+    border: none;
+    padding: 0.75rem 1rem;
+    background: transparent;
+    font-size: 1rem;
+    resize: none;
+    overflow: hidden;
+    min-height: 1.5em;
+    max-height: 150px;
+    line-height: 1.5;
+}
+
+.ec-input-group textarea:focus {
+    outline: none;
+}
+
+@keyframes ec-spin {
+    to { transform: rotate(360deg); }
+}

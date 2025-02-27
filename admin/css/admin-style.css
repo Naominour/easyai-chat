@@ -1,0 +1,27 @@
+.easyai-chat-admin-tabs .nav-tab-wrapper {
+    margin-bottom: 1rem;
+}
+
+.easyai-chat-admin-tabs .tab-content {
+    display: none;
+}
+
+.easyai-chat-admin-tabs .tab-content.active {
+    display: block;
+}
+
+.easyai-chat-admin-tabs .card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.easyai-chat-admin-tabs .card h3 {
+    margin-top: 0;
+}
+
+.provider-info {
+    display: none;
+}
