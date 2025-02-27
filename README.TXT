@@ -1,4 +1,5 @@
-# EasyAI-Chat 🎯💬
+🎯💬 # EasyAI-Chat
+
 ## A WordPress AI Chat Plugin with Multi-Model Support
 
 🚀 **EasyAI-Chat** enables AI-powered conversations on your WordPress website using **ChatGPT (OpenAI), Claude (Anthropic), and Gemini (Google)**. Easily integrate intelligent chat functionality to engage visitors, provide support, or answer user queries in real time.
