@@ -72,7 +72,7 @@ You can choose between:
 ## 🖼 Screenshots
 
 1. **Frontend Chat Interface**  
-<img src="images/04.png" alt="EasyAI-Chat Screenshot" width="700">
+<img src="images/04.png" alt="EasyAI-Chat Screenshot" width="400">
 2. **Admin Panel – API Configuration**
 ![EasyAI-Chat Admin](images/011.png)
 <img src="images/011.png" alt="EasyAI-Chat Screenshot" width="700">
